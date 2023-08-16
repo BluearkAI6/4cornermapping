@@ -11,9 +11,13 @@ The Four-Corner Number Converter is a handy tool for converting Chinese characte
 3. 開啟Appscript (https://www.google.com/script/start/)
 4. 創建新專案，分別新增代碼（index.html，4corner.js），Drive ID請使用Google Drive ID
 5. 部署專案，如欲公開，請設定‘所有人都可存取’
+
 #在google drive資料夾右鍵，選擇sharelink，以獲得Google Drive ID: https://drive.google.com/drive/folders/[DriveID])
+
 #官方說明：https://developers.google.com/apps-script/concepts/deployments
+
 #此版本的代碼可以經過適當調整後應用於其他環境，如虛擬機的網站等。您可以根據需要修改對照表的位置和JS、HTML部分的代碼，以適應不同的應用場景。
+
 -------------------------------------------------------------------------
 Conversion Table Source: https://github.com/Mikumikunisiteageru/Kanji_4_Corner_Index/
 
@@ -26,7 +30,9 @@ How to Use:
 5. Deploy the project. If you wish to make it public, please set it to 'Accessible to anyone'.
 
 #Right-click on the Google Drive folder and select 'Share link' to obtain the Google Drive ID: https://drive.google.com/drive/folders/[DriveID].
+
 #Official Documentation: https://developers.google.com/apps-script/concepts/deployments.
+
 #This version of the code can be appropriately adjusted for use in other environments, such as virtual machine websites, etc. You may modify the location of the comparison table and parts of the JS, HTML code to suit various application scenarios.
 
 ---------------------------------------------------------------------------
