@@ -11,17 +11,17 @@ The Four-Corner Number Converter is a handy tool for converting Chinese characte
 3. 開啟Appscript (https://www.google.com/script/start/)
 4. 創建新專案，分別新增代碼（index.html，4corner.js），Drive ID請使用Google Drive ID
 5. 部署專案，如欲公開，請設定‘所有人都可存取’
-#在google drive資料夾右鍵，選擇sharelink，以獲得Google Drive ID: https://drive.google.com/drive/folders/[DriveID])
-#官方說明：https://developers.google.com/apps-script/concepts/deployments
+# 在google drive資料夾右鍵，選擇sharelink，以獲得Google Drive ID: https://drive.google.com/drive/folders/[DriveID])
+# 官方說明：https://developers.google.com/apps-script/concepts/deployments
 -------------------------------------------------------------------------
 Conversion Table Source: https://github.com/Mikumikunisiteageru/Kanji_4_Corner_Index/
 
 How to Use:
 
-1.Sign in to your Google account.
-2.Create a folder in Google Drive and upload the conversion table (4-Corner_Map.txt).
-3.Open App Script (https://www.google.com/script/start/).
-4.Create a new project and add the code files (index.html, 4corner.js), using your Google Drive ID for the DriveID.
-5.Deploy the project. If you wish to make it public, please set it to 'Accessible to anyone'.
-#Right-click on the Google Drive folder and select 'Share link' to obtain the Google Drive ID: https://drive.google.com/drive/folders/[DriveID].
-Official Documentation: https://developers.google.com/apps-script/concepts/deployments.   
+1. Sign in to your Google account.
+2. Create a folder in Google Drive and upload the conversion table (4-Corner_Map.txt).
+3. Open App Script (https://www.google.com/script/start/).
+4. Create a new project and add the code files (index.html, 4corner.js), using your Google Drive ID for the DriveID.
+5. Deploy the project. If you wish to make it public, please set it to 'Accessible to anyone'.
+# Right-click on the Google Drive folder and select 'Share link' to obtain the Google Drive ID: https://drive.google.com/drive/folders/[DriveID].
+# Official Documentation: https://developers.google.com/apps-script/concepts/deployments.   
