@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>四角號碼查詢</title>
+    <script>
+      // 調用 Google App Script 函數進行查詢
+      // Use Google App Script
+      function query() {
+        var input = document.getElementById('input').value;
+        // 根據輸入內容判斷查詢漢字或四角號碼
+        // Find the four-corner code based on input text
+        if (isNaN(input)) {
+          google.script.run.withSuccessHandler(showResult).findCodeByCharacter(input);
+        } else {
+          google.script.run.withSuccessHandler(showResult).findCharactersByCode(input);
+        }
+      }
+
+      // 顯示查詢結果
+      // Return
+      function showResult(result) {
+        document.getElementById('result').innerHTML = '查詢結果：' + result;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>四角號碼查詢</h1>
+    <label for="input">請輸入查詢內容：</label>
+    <input type="text" id="input" />
+    <button onclick="query()">查詢</button>
+    <div id="result"></div>
+  </body>
+</html>
