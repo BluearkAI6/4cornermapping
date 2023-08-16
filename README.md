@@ -24,6 +24,7 @@ How to Use:
 3. Open App Script (https://www.google.com/script/start/).
 4. Create a new project and add the code files (index.html, 4corner.js), using your Google Drive ID for the DriveID.
 5. Deploy the project. If you wish to make it public, please set it to 'Accessible to anyone'.
+
 #Right-click on the Google Drive folder and select 'Share link' to obtain the Google Drive ID: https://drive.google.com/drive/folders/[DriveID].
 #Official Documentation: https://developers.google.com/apps-script/concepts/deployments.
 #This version of the code can be appropriately adjusted for use in other environments, such as virtual machine websites, etc. You may modify the location of the comparison table and parts of the JS, HTML code to suit various application scenarios.
